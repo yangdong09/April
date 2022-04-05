@@ -1,0 +1,11 @@
+2022-04-04 14:03:37,752-applog-assert1.py-[line:10] :ERROR-[日志信息]: 请求状态码对比失败，请求状态吗2001，断言状态码200
+2022-04-04 15:01:01,176-applog-April_excel.py-[line:28] :ERROR-[日志信息]: 请检查出入参数是否正确，重点检查sheet名称
+2022-04-04 15:01:19,008-applog-April_excel.py-[line:28] :ERROR-[日志信息]: 请检查传入参数是否正确，重点检查sheet名称
+2022-04-04 15:01:46,088-applog-April_excel.py-[line:27] :ERROR-[日志信息]: 请检查传入参数是否正确，重点检查sheet名称
+2022-04-04 15:01:46,088-applog-April_excel.py-[line:28] :ERROR-[日志信息]: (-2147352567, '发生意外。', (0, None, None, None, 0, -2147352565), None)
+2022-04-04 15:27:51,030-applog-April_excel.py-[line:27] :ERROR-[日志信息]: 请检查传入参数是否正确，或excel是否已经打开
+2022-04-04 15:27:51,030-applog-April_excel.py-[line:28] :ERROR-[日志信息]: (-2147352567, '发生意外。', (0, None, None, None, 0, -2147352565), None)
+2022-04-04 18:17:37,093-applog-April_excel.py-[line:34] :ERROR-[日志信息]: 请检查传入参数是否正确，或excel是否已经打开
+2022-04-04 18:17:37,093-applog-April_excel.py-[line:35] :ERROR-[日志信息]: name 'sht' is not defined
+2022-04-04 18:18:18,022-applog-April_excel.py-[line:34] :ERROR-[日志信息]: 请检查传入参数是否正确，或excel是否已经打开
+2022-04-04 18:18:18,022-applog-April_excel.py-[line:35] :ERROR-[日志信息]: name 'sht' is not defined

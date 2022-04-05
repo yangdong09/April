@@ -1,0 +1,24 @@
+0.导出程序中的包：pip freeze >a.txt
+1.在pycharm--Terminal中导入所需的依赖包：pip install -r a.txt
+------------------------------------------------------------------------------------
+1.config(配置文件)：
+配置文件的种类有：ini、yaml、xml、properties、txt、py等.
+这里以yaml为例要在config层添加配置文件api.yml，在utils层添加assert1.py
+2.data(数据文件)：
+封装xlrd模块，读取excel，实现用例的参数化
+3.drivers(驱动)：
+将驱动文件chromedriver.exe、IEDriverServer.exe放在项目目录下
+4.log(日志文件)：
+将python自带的logging模块封装了一下，从配置文件读取并设置固定的logger。在utils中创建了log.py
+5.report(报告)
+使用HTMLTestRunner.py生成HTML测试报告
+6.test(测试用例)：
+7.utils(公共方法)：
+接口测试封装client类。在utils中添加了client.py
+添加一个简单的自定义断言，在utils中添加assertion.py，可用同样的方法自行扩展
+为了抽取响应结果，用JMESPath封装Extractor，在utils中添加extractor.py
+生成器为我们自动生成固定类型的测试数据，utils下创建了generator.py
+
+
+
+重要说明：函数中是否要加self目前还没有搞明白。

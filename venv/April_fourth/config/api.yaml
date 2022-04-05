@@ -1,0 +1,10 @@
+-
+    name: 登录接口
+    request:
+        method: get
+        url: http://www.baidu.com
+        params:
+            keyword: yangdong
+    validate:
+        - eq: {"status_code": 200 }
+        - eq: {"message": "process success"}
